@@ -3,7 +3,7 @@
 #################################################################################################
 import pandas as pd
 
-#region ÖDEV 1
+#region  1
 
 x = 8
 type(x)
@@ -62,14 +62,14 @@ type(s)
 #endregion
 
 
-#region ÖDEV 2
+#region  2
 text = "The goal is to turn data into information, and information into insight."
 
 text.upper().replace(",", "").replace(".", "").split()
 
 #endregion
 
-#region ÖDEV 3
+#region  3
 
 lst = ["D", "A", "T", "A", "S", "C", "I", "E", "N", "C", "E"]
 
@@ -95,7 +95,7 @@ lst.insert(8, 'N')
 #endregion
 
 
-#region ÖDEV 4
+#region  4
 #Verilen sözlük yapısına aşağıdaki adımları uygulayınız.
 
 dict = {'Christan': ['America', 18],
@@ -122,7 +122,7 @@ dict.update({'Ahmet' : ['Turkey', 24]})
 dict.pop('Antonio')
 #endregion
 
-#region ÖDEV 5
+#region  5
 
 #Argüman olarak bir liste alan, listenin içerisindeki tek ve çift sayıları ayrı listelere atayan ve bu listeleri return eden fonksiyon yazınız.
 
@@ -146,7 +146,7 @@ print(cift_degerler, tek_degerler)
 #endregion
 
 
-#region ÖDEV 6
+#region  6
 
 #Aşağıda verilen listede mühendislik ve tıpfakülterinde dereceye giren öğrencilerin isimleri bulunmaktadır. Sırasıyla ilk üç öğrenci mühendislik fakültesinin başarı sırasını temsil ederken son üç öğrenci de tıp fakültesi öğrenci sırasına aittir. Enumarate kullanarak öğrenci derecelerini fakülte özelinde yazdırınız.
 
@@ -161,7 +161,7 @@ for index, val in enumerate(ogrenciler, 1):
 #endregion
 
 
-#region ÖDEV 7
+#region  7
 #Aşağıda 3 adet liste verilmiştir. Listelerde sırası ile bir dersin kodu, kredisi ve kontenjan bilgileri yer almaktadır. Zip kullanarak ders bilgilerini bastırınız.
 
 ders_kodu = ['CMP1005', 'PSY1001', 'HUK1005', 'SEN2204'] ; kredi = [3, 4, 2, 4] ;  kontenjan = [30, 75, 150, 25]
@@ -172,7 +172,7 @@ for ders_kodu, kredi, kontenjan in zip(ders_kodu, kredi, kontenjan):
 #endregion
 
 
-#region ÖDEV 8
+#region  8
 
 kume1 = set(["data", "python"])
 kume2 = set(["data", "function", "qcut", "lambda", "python", "miuul"])
